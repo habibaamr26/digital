@@ -37,7 +37,7 @@ Shows "No articles available" if the API returns no data.
 
 Setup Instructions
 Clone the repository
-git clone
+git clone https://github.com/habibaamr26/digital.git
 Install dependencies
 flutter pub get
 
