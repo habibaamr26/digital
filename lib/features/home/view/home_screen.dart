@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                     if (state is NewsLoading) {
                       return const Center(child: CircularProgressIndicator());
                     } else if (state is NewsLoaded) {
-                      // تم إضافة Pull-to-Refresh هنا
+          
                       return RefreshIndicator(
                         onRefresh: () async {
                           // allow user to refresh and get data again
